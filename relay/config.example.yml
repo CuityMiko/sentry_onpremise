@@ -1,5 +1,5 @@
 relay:
-  upstream: "http://web:9100/"
+  upstream: "http://web:9200/"
   host: 0.0.0.0
   port: 3000
 logging:

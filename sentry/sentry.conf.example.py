@@ -183,7 +183,7 @@ SENTRY_DIGESTS = "sentry.digests.backends.redis.RedisBackend"
 ##############
 
 SENTRY_WEB_HOST = "0.0.0.0"
-SENTRY_WEB_PORT = 9100
+SENTRY_WEB_PORT = 9200
 SENTRY_WEB_OPTIONS = {
     "http": "%s:%s" % (SENTRY_WEB_HOST, SENTRY_WEB_PORT),
     "protocol": "uwsgi",
