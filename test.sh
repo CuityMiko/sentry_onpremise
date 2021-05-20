@@ -4,7 +4,7 @@ set -e
 source "$(dirname $0)/install/_lib.sh" 
 
 echo "${_group}Setting up variables and helpers ..."
-export SENTRY_TEST_HOST="${SENTRY_TEST_HOST:-http://localhost:9200}"
+export SENTRY_TEST_HOST="${SENTRY_TEST_HOST:-http://localhost:9500}"
 TEST_USER='test@example.com'
 TEST_PASS='test123TEST'
 COOKIE_FILE=$(mktemp)
